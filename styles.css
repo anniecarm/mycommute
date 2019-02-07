@@ -1,0 +1,66 @@
+body {
+	background-color: black;
+	font-family: 'Titillium Web', sans-serif;
+	color: white;
+}
+
+h1 {
+	font-size: 54px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 24px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 16px;
+	text-align:center;
+}
+
+header {
+	padding-bottom:5%;
+	padding-top:5%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 16px;
+}
+
+blockquote {
+	text-align:center;
+	color: white;
+	text-shadow: 4px 4px 4px solid #A8A9AD;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right:20px;
+	border-left: none;
+	padding-bottom: 0px;
+	margin-left: 20%;
+	margin-right:20%;
+	font-style:italic;
+}
+
+@media screen and (min-width: 601px) {
+  blockquote {
+    font-size: 30px;
+  }
+}
+
+.row {
+	padding-top: 8%;
+}
+
+#dialouge {
+	background-color:white;
+}
+
